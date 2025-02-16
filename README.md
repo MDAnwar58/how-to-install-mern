@@ -13,7 +13,7 @@ Then install this
 ```
 npm install --save-dev nodemon
 ```
-Then make file in root project folder in `server.js` and here paste it
+Then make file in root project folder in `server.js` and here paste it and here using 2 methods for importer like `const express = require("express");` or `import express from "express";` any one method using in all project files.
 ```
 const express = require("express");
 const cors = require("cors");
