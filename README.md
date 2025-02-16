@@ -95,8 +95,7 @@ const create_design = async () => {
 ```
 2. Second Type post method use request type `json` when not using any file in post this time using 
 ```
-const image = await htmlToImage.toBlob(ref.current);
-      const design = JSON.stringify(obj);
+const create_design = async () => {
       if (image) {
          const formData = {
             name: "MD Anwar",
